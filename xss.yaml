@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: Fake Login Page
-description: '![xss" title="</p><svg onload=alert(1)>](x)'
+description: '[Click me](javascript:alert(1)'
 paths:
   /:
     post:
