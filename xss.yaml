@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: Fake Login Page
-  description: '<img src=x onerror=alert(1)>'
+description: '![xss" title="</p><svg onload=alert(1)>](x)'
 paths:
   /:
     post:
